@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+      integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js" defer></script>
+    <title>Custom select Box</title>
+  </head>
+  <body>
+    <div class="checkbox-dropdown-container">
+      <div class="checkbox-dropdown">
+        <span class="checkbox-dropdown-title">Choose Category</span>
+        <div class="checkbox-dropdown-list-container">
+          <div class="search-input">
+            <input type="text" id="search" placeholder="Search Category" />
+          </div>
+          <ul class="checkbox-dropdown-list">
+            <li class="dropdown-cat">
+              <label>
+                <input
+                  type="checkbox"
+                  value="school"
+                  data-val="school"
+                  class="cat-data"
+                  name="category"
+                />
+                school
+              </label>
+            </li>
+            <li class="dropdown-cat">
+              <label>
+                <input
+                  type="checkbox"
+                  value="college"
+                  data-val="college"
+                  class="cat-data"
+                  name="category"
+                />
+                college
+              </label>
+            </li>
+            <li class="dropdown-cat">
+              <label>
+                <input
+                  type="checkbox"
+                  value="2019"
+                  data-val="2019"
+                  class="cat-data"
+                  name="category"
+                />
+                2019
+              </label>
+            </li>
+            <li class="dropdown-cat">
+              <label>
+                <input
+                  type="checkbox"
+                  value="cars"
+                  data-val="cars"
+                  class="cat-data"
+                  name="category"
+                />
+                cars
+              </label>
+            </li>
+            <li class="dropdown-cat">
+              <label>
+                <input
+                  type="checkbox"
+                  value="Summer Program"
+                  data-val="Summer Program"
+                  class="cat-data"
+                  name="category"
+                />
+                Summer Program
+              </label>
+            </li>
+            <li class="dropdown-cat">
+              <label>
+                <input
+                  type="checkbox"
+                  value="Gap Program"
+                  data-val="Gap Program"
+                  class="cat-data"
+                  name="category"
+                />
+                Gap Program
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <ul class="checkbox-dropdown-value"></ul>
+  </body>
+</html>
